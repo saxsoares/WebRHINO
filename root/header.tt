@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="/css/drop-down.css">
 <link rel="stylesheet" href="/css/offcanvas.css">
 <link rel="stylesheet" href="/css/dashboard.css">
+<link rel="stylesheet" href="/css/blog.css">
 <link rel="stylesheet" href="/css/app-local.css">
 
 <script type="text/javascript" language="javascript" src="/js/jquery.js"></script>
@@ -13,5 +14,6 @@
 <script type="text/javascript" language="javascript" src="/js/web-upload.js"></script>
 <script type="text/javascript" language="javascript" src="/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" language="javascript" src="/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="/js/holder.min.js"></script>
 
 <title>WebRHINO RH Online</title>
