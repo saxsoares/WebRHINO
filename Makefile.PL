@@ -21,6 +21,7 @@ requires 'Catalyst::View::TT';
 requires 'Catalyst::Model::DBIC::Schema';
 requires 'Catalyst::Action::REST';
 requires 'DBIx::Class::PassphraseColumn';
+#requires 'Catalayst::ScriptRunner'; adicionei tentando resolver o erro do dia 24/12, nao funcionou
 
 requires 'Config::General'; # This should reflect the config file format you've chosen
                  # See Catalyst::Plugin::ConfigLoader for supported formats
