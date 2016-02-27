@@ -116,6 +116,21 @@ sub add_POST {
     });
 }
 
+
+sub  list :Local :Args(0) :ActionClass('REST') {}
+
+sub list_GET{ 
+	my ($self, $c) = @_;
+    	
+	my $user_rs = $c->model('Rhino::User');
+	my @users = $user_rs->all();
+	
+	$c->stash({
+		userslist => @users, 
+		template => 'admin/user/list.tt' 
+	});
+}
+
 =encoding utf8
 
 =head1 AUTHOR
